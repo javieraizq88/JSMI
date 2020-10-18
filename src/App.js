@@ -4,6 +4,8 @@ import {  Route, BrowserRouter, Switch } from 'react-router-dom';
 import injectContext from './store/appContext';
 import Home from './components/home';
 import Navbar from './components/navbar';
+import Conoceme from './components/conoceme';
+import Blog from './components/blog';
  
 const App = props => {
  
@@ -13,6 +15,8 @@ const App = props => {
       <Navbar />
         <Switch>
           <Route exact path='/' component={Home} /> 
+          <Route exact path='/conoceme' component={Conoceme} /> 
+          <Route exact path='/blog' component={Blog} /> 
         </Switch>
       </BrowserRouter>
     </>
