@@ -25,7 +25,7 @@
 }
 
 #bg-home-proyectos{
-  background-color: rgb(191, 238, 97);
+  background-color: rgb(97, 170, 238);
 }
 
 /* footer */
@@ -46,6 +46,7 @@ footer #left-footer{
   padding: 8px;
   flex: 1;
 }
+
 footer #left-footer p{
   padding-top: 14px;
 }
