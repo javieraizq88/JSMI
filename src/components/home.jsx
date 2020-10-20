@@ -4,7 +4,7 @@ const Home = props => {
     return (
         <div className="contenedorPag">
             {/* carrusel */}
-            {/* <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">0</li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1">1</li>
@@ -45,11 +45,11 @@ const Home = props => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-            */}
+         
             {/* fin carrusel */}
 
             {/* ultimos blogs */}
-            {/* <div className="" id="bg-home-blog">
+            <div className="" id="bg-home-blog">
                 <h1>Últimos blogs</h1>
                 <br />
                 <div class="row row-cols-1 row-cols-md-3">
@@ -94,14 +94,72 @@ const Home = props => {
 
                 </div>
             </div>
-            */}
+          
             {/* fin ultimos blogs */}
 
-            <div className="container">
+
+            {/* seccion sin nombre ni contenido */}
+            <div  id="bg-home-seccion">
                 <div className="card">
                     <h2>imagen con info chora (recomendaciones, etc)</h2>
                 </div>
             </div>
+            {/* fin seccion sin nombre ni contenido */}
+
+
+            <div id="bg-home-proyectos">
+                <h1>Mis últimos proyectos</h1>
+                <br/>
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="https://i.picsum.photos/id/137/4752/3168.jpg?hmac=dGsgAtPkFewFByZXZOmSg0U7Mohr43GyVu3n1AHVIyg" 
+                            class="card-img" 
+                            alt="img home proyectos" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" >
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="https://i.picsum.photos/id/142/4272/2848.jpg?hmac=z8IS_an6FQ8ijJOBd-wSVg1JTZbeIDG4TbjHwLQbs0I"
+                             class="card-img" 
+                             alt="img home proyectos" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" >
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="https://i.picsum.photos/id/164/1200/800.jpg?hmac=wkqGUkaeW3kiAsHq_VwxSWWossIMAwFV4eUfFzuDkew" 
+                            class="card-img" 
+                            alt="img home proyectos" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 

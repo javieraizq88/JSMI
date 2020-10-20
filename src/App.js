@@ -6,6 +6,7 @@ import Home from './components/home';
 import Navbar from './components/navbar';
 import Conoceme from './components/conoceme';
 import Blog from './components/blog';
+import Footer from './components/footer';
  
 const App = props => {
  
@@ -18,6 +19,7 @@ const App = props => {
           <Route exact path='/conoceme' component={Conoceme} /> 
           <Route exact path='/blog' component={Blog} /> 
         </Switch>
+        <Footer/>
       </BrowserRouter>
     </>
   )
