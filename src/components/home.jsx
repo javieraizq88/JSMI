@@ -3,7 +3,8 @@ import React from "react";
 const Home = props => {
     return (
         <div className="contenedorPag">
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+            {/* carrusel */}
+            {/* <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">0</li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1">1</li>
@@ -44,7 +45,56 @@ const Home = props => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-            <h1>Home</h1>
+            */}
+            {/* fin carrusel */}
+
+            {/* ultimos blogs */}
+            <div className="" id="bg-home-blog">
+                <h1>Últimos blogs</h1>
+                <br />
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card border-light  h-100" id="card-home-blog">
+                            <img
+                                src="https://i.picsum.photos/id/1012/3973/2639.jpg?hmac=s2eybz51lnKy2ZHkE2wsgc6S81fVD1W2NKYOSh8bzDc"
+                                class="card-img-top"
+                                alt="img home blog" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center">
+                                    Card title
+                                        </h5>
+                                <p class="card-text">
+                                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card border-light  h-100" id="card-home-blog">
+                            <img src="https://i.picsum.photos/id/1043/5184/3456.jpg?hmac=wsz2e0aFKEI0ij7mauIr2nFz2pzC8xNlgDHWHYi9qbc"
+                                class="card-img-top"
+                                alt="img home blog" />
+                            <div class="card-body ">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card border-light  h-100" id="card-home-blog">
+                            <img src="https://i.picsum.photos/id/134/4928/3264.jpg?hmac=IcPmWTNClVqLcr7PpqBrfOAvgmJbqw0Z8jZvmsCrC-c"
+                                class="card-img-top"
+                                alt="img home blog" />
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+{/* fin ultimos blogs */}
 
         </div>
 
