@@ -4,7 +4,7 @@ const Home = props => {
     return (
         <div className="contenedorPag">
             {/* carrusel */}
-            {/* <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+             <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">0</li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1">1</li>
@@ -45,7 +45,7 @@ const Home = props => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-            */}
+      
             {/* fin carrusel */}
 
             {/* ultimos blogs */}
