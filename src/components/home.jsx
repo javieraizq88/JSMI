@@ -4,7 +4,7 @@ const Home = props => {
     return (
         <div className="contenedorPag">
             {/* carrusel */}
-             <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+            {/* <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">0</li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1">1</li>
@@ -45,11 +45,11 @@ const Home = props => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-      
+            */}
             {/* fin carrusel */}
 
             {/* ultimos blogs */}
-            <div className="" id="bg-home-blog">
+            {/* <div className="" id="bg-home-blog">
                 <h1>Últimos blogs</h1>
                 <br />
                 <div class="row row-cols-1 row-cols-md-3">
@@ -65,7 +65,7 @@ const Home = props => {
                                         </h5>
                                 <p class="card-text">
                                     This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                        </p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,14 @@ const Home = props => {
 
                 </div>
             </div>
-{/* fin ultimos blogs */}
+            */}
+            {/* fin ultimos blogs */}
+
+            <div className="container">
+                <div className="card">
+                    <h2>imagen con info chora (recomendaciones, etc)</h2>
+                </div>
+            </div>
 
         </div>
 
