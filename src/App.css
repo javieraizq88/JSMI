@@ -28,10 +28,11 @@
   background-color: rgb(97, 170, 238);
 }
 
-/* footer */
+/*  ##### FOOTER ##### */
+
 footer{
   display: flex;
-  padding: 8px;
+  padding: 2%;
   padding-left: 10%;
   color: white;
 }
